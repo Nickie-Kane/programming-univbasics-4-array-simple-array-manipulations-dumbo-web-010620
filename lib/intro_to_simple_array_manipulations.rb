@@ -77,4 +77,3 @@ puts animals.delete(animal)
 end
 
 using_delete_at(animals, 1)
-p animal
