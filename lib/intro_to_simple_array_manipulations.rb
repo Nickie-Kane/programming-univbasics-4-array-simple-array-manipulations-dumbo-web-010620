@@ -72,8 +72,8 @@ end
 
 using_delete(animals, "Cat")
 
-def using_delete_at(animals, animal)
-animals.delete(animal)
+def using_delete_at(animals, num)
+animals.delete(num)
 end
 
 using_delete_at(animals, 1)
