@@ -51,7 +51,7 @@ end
 using_insert(animals, "turtle")
 
 def using_uniq(animals)
-animals.shift(2)
+animals.uniq
 end
 
 using_uniq(animals)
