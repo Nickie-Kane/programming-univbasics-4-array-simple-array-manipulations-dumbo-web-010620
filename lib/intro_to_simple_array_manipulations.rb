@@ -71,3 +71,9 @@ animals.delete(animal)
 end
 
 using_delete(animals, "Cat")
+
+def using_delete(animals, animal)
+animals.delete(animal)
+end
+
+using_delete(animals, "Cat")
