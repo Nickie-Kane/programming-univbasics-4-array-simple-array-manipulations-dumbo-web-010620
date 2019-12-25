@@ -50,8 +50,8 @@ end
 
 using_insert(animals, "turtle")
 
-def shift_with_args(animals)
+def using_uniq(animals)
 animals.shift(2)
 end
 
-shift_with_args(animals)
+using_uniq(animals)
