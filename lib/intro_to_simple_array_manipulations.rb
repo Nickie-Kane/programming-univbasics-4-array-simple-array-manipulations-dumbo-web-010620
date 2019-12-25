@@ -73,9 +73,7 @@ end
 using_delete(animals, "Cat")
 
 def using_delete_at(animals, num)
-  p animals
-  p num
-puts delete(animals, num)
+animals.delete(num)
 end
 
 using_delete_at(animals, 1)
