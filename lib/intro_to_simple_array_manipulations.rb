@@ -56,8 +56,8 @@ end
 
 using_uniq(animals)
 
-def using_uniq(animals)
+def using_flatten(animals)
 animals.uniq
 end
 
-using_uniq(animals)
+using_flatten(animals)
