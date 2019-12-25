@@ -65,3 +65,9 @@ a.flatten
 end
 
 using_flatten(a)
+
+def using_insert(animals, animal)
+animals.insert(4, animal)
+end
+
+using_insert(animals, "turtle")
