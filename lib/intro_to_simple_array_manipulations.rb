@@ -55,3 +55,9 @@ animals.uniq
 end
 
 using_uniq(animals)
+
+def using_uniq(animals)
+animals.uniq
+end
+
+using_uniq(animals)
