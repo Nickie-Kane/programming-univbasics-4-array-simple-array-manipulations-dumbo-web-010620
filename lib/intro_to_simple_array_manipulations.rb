@@ -49,3 +49,9 @@ animals.insert(4, animal)
 end
 
 using_insert(animals, "turtle")
+
+def shift_with_args(animals)
+animals.shift(2)
+end
+
+shift_with_args(animals)
