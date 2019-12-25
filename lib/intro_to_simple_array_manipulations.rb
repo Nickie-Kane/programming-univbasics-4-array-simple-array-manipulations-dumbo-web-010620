@@ -56,8 +56,12 @@ end
 
 using_uniq(animals)
 
-def using_flatten(animals)
-animals.flatten
+s = [ 1, 2, 3 ]         
+t = [ 4, 5, 6, [7, 8] ] 
+a = [ s, t, 9, 10 ]  
+
+def using_flatten(a)
+a.flatten
 end
 
-using_flatten(animals)
+using_flatten(a)
